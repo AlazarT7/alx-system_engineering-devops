@@ -1,3 +1,8 @@
+
 #!/bin/bash
-echo /tmp/correction/5194991818849210551408649061793178494404_2/205/1625/0x00-shell_basics
+echo $0
+full_path=$(realpath $0)
+echo $full_path
+dir_path=$(dirname $full_path)
+echo $dir_path
 ~   
